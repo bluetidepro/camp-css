@@ -1,0 +1,26 @@
+{
+  "typography": {
+    "marketing": {
+      "base-scale": { "value": "4px" }
+    },
+    "product": {
+      "base-scale": { "value": "20px" }
+    },
+    "family": {
+      "title": { "value": "'Poppins', 'Avenir', 'Avenir Next', 'Futura', helvetica, arial, sans-serif" },
+      "body": { "value": "'IBM Plex Sans', 'Franklin Gothic', 'ITC Franklin Gothic', helvetica, arial, sans-serif" }
+    },
+    "weight": {
+      "normal": { "value": 400 },
+      "semibold": { "value": 500 },
+      "bold": { "value": 600 },
+      "extra bold": { "value": 700 }
+    },
+    "size": {
+      "1": { "value": 0.625 },
+      "2": { "value": 0.75 },
+      "3": { "value": 0.875 },
+      "4": { "value": 1 }
+    }
+  }
+}

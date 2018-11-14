@@ -1,0 +1,18 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "web": {
+      "buildPath": "dist/",
+      "transformGroup": "scss",
+      "files": [{
+        "destination": "camp-color.scss",
+        "format": "scss/variables",
+        "options": { "showFileHeader": false }
+      },{
+        "destination": "camp-color.css",
+        "format": "css/variables",
+        "options": { "showFileHeader": false }
+      }]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@ActiveCampaign/camp-color",
+  "version": "0.0.1",
+  "description": "ActiveCampaign Color Tokens",
+  "main": "dist/camp-color.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activecampaign/camp-css.git"
+  },
+  "author": "ActiveCampaign",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && style-dictionary build",
+    "clean": "rimraf dist",
+    "prepare": "npm run build"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "command": {
+    "publish": {
+      "message": "chore(release): publish",
+      "allowBranch": [
+        "master",
+        "staging"
+      ]
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "ignoreChanges": [
+    "*.md",
+    "build.js",
+    "config.json",
+    "package.json"
+  ],
+  "version": "independent"
+}

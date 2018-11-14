@@ -1,0 +1,49 @@
+{
+  "name": "@ActiveCampaign/camp-css",
+  "version": "0.0.1",
+  "description": "CSS behind the distinctive style of ActiveCampaign",
+  "keywords": [
+    "camp-css",
+    "camp",
+    "css",
+    "scss",
+    "activecampaign"
+  ],
+  "author": "ActiveCampaign",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activecampaign/camp-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/activecampaign/camp-css/issues"
+  },
+  "scripts": {
+    "build": "npm run lint && npm run test && npm run clean && gulp",
+    "build-watch": "npm run clean",
+    "clean": "rimraf dist",
+    "lint": "stylelint scss",
+    "prepare": "npm run build",
+    "test": "ava --color -v"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 10"
+  ],
+  "dependencies": {
+    "@ActiveCampaign/camp-color": "^0.0.1",
+    "@ActiveCampaign/camp-typography": "^0.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.8",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.11.0",
+    "stylelint": "^9.4.0",
+    "stylelint-config-activecampaign": "^0.1.2"
+  }
+}
